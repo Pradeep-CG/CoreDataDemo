@@ -14,6 +14,7 @@
 		2756256A238C0B72001FE385 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27562568238C0B72001FE385 /* CoreDataDemo.xcdatamodeld */; };
 		2756256C238C0B78001FE385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2756256B238C0B78001FE385 /* Assets.xcassets */; };
 		2756256F238C0B78001FE385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2756256D238C0B78001FE385 /* LaunchScreen.storyboard */; };
+		27562578238C0E7F001FE385 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27562577238C0E7F001FE385 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2756256B238C0B78001FE385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2756256E238C0B78001FE385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27562570238C0B78001FE385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27562577238C0E7F001FE385 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27562578238C0E7F001FE385 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				2756255E238C0B72001FE385 /* CoreDataDemo */,
 				2756255D238C0B72001FE385 /* Products */,
+				27562576238C0E7F001FE385 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +72,14 @@
 				27562568238C0B72001FE385 /* CoreDataDemo.xcdatamodeld */,
 			);
 			path = CoreDataDemo;
+			sourceTree = "<group>";
+		};
+		27562576238C0E7F001FE385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27562577238C0E7F001FE385 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
